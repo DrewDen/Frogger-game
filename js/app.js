@@ -3,8 +3,6 @@ const Enemy = function(x, y) {
     this.x = x;
     this.y = y;
     this.speed = 100 + Math.floor(Math.random() * 675);
-    //this.randomSpeed = this.speed + Math.ceil(Math.random() * 512);
-
     // Variables applied to each of our instances go here,
     // we've provided one for you to get started
     // The image/sprite for our enemies, this uses
