@@ -1,5 +1,5 @@
 // Enemies our player must avoid
-var Enemy = function(x, y) {
+const Enemy = function(x, y) {
     this.x = x;
     this.y = y;
     this.speed = 100 + Math.floor(Math.random() * 675);
