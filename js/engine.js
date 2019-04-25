@@ -94,9 +94,6 @@ var Engine = (function(global) {
             enemy.update(dt);
         });
         player.update();
-        allrock.forEach(function(rock) {
-            rock.update();
-        });
     }
 
     /* This function initially draws the "game level", it will then call
@@ -167,9 +164,10 @@ var Engine = (function(global) {
      * handle game reset states - maybe a new game menu or a game over screen
      * those sorts of things. It's only called once by the init() method.
      */
-    function reset() {
-        // noop
-    }
+    /* function reset() {
+        
+        
+    }; */
 
     /* Go ahead and load all of the images we know we're going to need to
      * draw our game level. Then set init as the callback method, so that when
